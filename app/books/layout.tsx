@@ -7,11 +7,8 @@ export default function TestLayout({
     children: React.ReactNode;
   }) {
     return (
-      <html lang="en">
-        <body>
-        <h2>Titre de test</h2>
+      <section>
         {children}
-        </body>
-      </html>
+      </section>
     );
   }

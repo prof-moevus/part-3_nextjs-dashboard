@@ -5,11 +5,9 @@ export default function TestLayout({
     children: React.ReactNode;
   }) {
     return (
-      <html lang="en">
-        <body>
+      <section> 
         <h2>Titre de test</h2>
         {children}
-        </body>
-      </html>
+      </section>
     );
   }

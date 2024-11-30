@@ -1,3 +1,7 @@
+/**
+ * This is an example of dynamic routing 
+ * with a server-side component
+ */
 export default async function BookPage(
     {params,} : { params: Promise<{ bookid: string }>}
 ) 
